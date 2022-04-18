@@ -154,21 +154,18 @@ public class MainActivity extends AppCompatActivity {
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 
-        switch (requestCode){
-
-            case PERMISSIONS_FINE_LOCATIONS:
-            if(grantResults[0] == PackageManager.PERMISSION_GRANTED){
+        if(PERMISSIONS_FINE_LOCATIONS == PackageManager.PERMISSION_GRANTED) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 updateGPS();
             } else {
 
                 Toast.makeText(this, "This app needs permission to be granted in order to work properly.", Toast.LENGTH_SHORT).show();
 
             }
-            break;
-
         }
 
     }
+
 
     private void updateGPS(){
 
