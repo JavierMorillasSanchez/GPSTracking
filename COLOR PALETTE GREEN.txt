@@ -1,0 +1,22 @@
+<color name="sage">#AFBC88</color>
+    <color name="maygreen">#618B4A</color>
+    <color name="darkmossgreen">#40531B</color>
+    <color name="morningblue">#7AA095</color>
+    <color name="lightcyan">#D7F9F1</color>
+    <color name="black">#E6000000</color>
+    <color name="white">#E6FFFFFF</color>
+
+
+
+
+
+
+
+<!-- Primary brand color. -->
+        <item name="colorPrimary">@color/maygreen</item>
+        <item name="colorPrimaryVariant">@color/darkmossgreen</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/morningblue</item>
+        <item name="colorSecondaryVariant">@color/lightcyan</item>
+        <item name="colorOnSecondary">@color/black</item>
